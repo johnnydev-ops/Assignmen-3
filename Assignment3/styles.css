@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Museo Sans";
+  src: url(Fonts/museosans-500.ttf);
+  font-weight: bold;
+  font-size: 18px;
+}
+p {
+  font-family: "Museo Sans";
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Museo Sans";
+  font-size: 30px;
+  color: #009;
+  text-align: center;
+}
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+/*
+Mouse Cursor for Links Constructed 
+*/
+.wrapper {
+  letter-spacing: 3px;
+  font-size: medium;
+  word-spacing: 1.5px;
+  background-color: white;
+  text-align: center;
+}
+/*
+  Mouse Cursor for Links Constructed when user hovers over, you cant construct Active as well
+  */
+.wrapper a:hover {
+  background: lightgray;
+}
+h2 {
+  font-size: 10px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.div2 {
+  float: right;
+  background: greenyellow;
+  width: 336px;
+  padding: 12px;
+}
+.div1 {
+  float: left;
+  background: aquamarine;
+  width: 576px;
+  padding: 12px;
+}
+.footer {
+  height: 176px;
+  padding: 12px;
+  background: whitesmoke;
+  text-align: center;
+  clear: both;
+}
+@media (min-width: 600px) {
+  .container {
+    width: 100%;
+  }
+}
